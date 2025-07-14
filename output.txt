@@ -1,0 +1,27 @@
+=== Schema ===
+root
+ |-- date: string (nullable = true)
+ |-- symbol: string (nullable = true)
+ |-- open: string (nullable = true)
+ |-- high: string (nullable = true)
+ |-- low: string (nullable = true)
+ |-- close: string (nullable = true)
+ |-- volume: string (nullable = true)
+
+
+=== Missing Values ===
++----+------+----+----+---+-----+------+
+|date|symbol|open|high|low|close|volume|
++----+------+----+----+---+-----+------+
+|   0|     0|   0|   0|  0|    1|     1|
++----+------+----+----+---+-----+------+
+
+
+=== Duplicate Rows ===
+Total rows: 7
+Unique rows: 6
+Duplicates: 1
+
+=== Schema Mismatch ===
+Missing columns: set()
+Unexpected columns: set()
